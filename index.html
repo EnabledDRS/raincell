@@ -19,7 +19,7 @@
                 <option>강원권[2시간]</option>
                 <option>제주권[2시간]</option>
                 <option>동아시아[24시간]</option>
-            </select>     
+            </select>  
             <div class="time-info">
                 <div class="refresh-time">갱신: yyyy.mm.dd. hh:mm:ss</div>
                 <div class="now">현재: yyyy.mm.dd. hh:mm:ss</div>
@@ -33,7 +33,12 @@
             <div class="speed-display">0.5s/frame</div>
             <button class="speed-btn" id="faster">빠르게</button>
             <button class="pause-btn">재생</button>
-        </div>
+            
+            <button id="fullscreen-btn" title="전체화면" style="margin-left: auto; background: none; border: none; cursor: pointer; padding: 5px;">
+                <svg class="enter-fullscreen-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 2h-2v3h-3v2h5v-5zm-3-2V7h3V5h-5v5h2z"></path></svg>
+                <svg class="exit-fullscreen-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" style="display:none;"><path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm2-11V5h-2v5h5V8h-3z"></path></svg>
+            </button>
+            </div>
         <div class="checkboxes">
             <label><input type="checkbox" id="aws"> 지점</label>
             <label><input type="checkbox" id="center"> 동심원</label>
